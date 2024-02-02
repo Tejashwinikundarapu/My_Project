@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div> <a class="navbar-brand" href="#">Educare Multispeciality Hospital</a>
+        <a class="navbar-brand" routerLink="/about-us"> About us</a>
+        <a class="navbar-brand" routerLink="/contact-us">Contact us</a>
+      </div>
+  
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="bar">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  
+           
+            
+            <!-- <li class="nav-item">
+              <a class="nav-link" routerLink="/doctor-page">
+                <p>Doctor</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/user-page">
+                <p>Patient</p>
+              </a>
+            </li>---->
+
+
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/sign-up">
+                <p>Sign Up</p>
+              </a>
+            </li> 
+
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/appointments-page">
+                  <p>Appointments</p>
+                </a>
+              </li>
+            
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Login</a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                <li><a class="dropdown-item" routerLink="/doctor-login" routerLinkActive="active">doctor</a></li>
+                <li><a class="dropdown-item" routerLink="/user-login" routerLinkActive="active">user</a></li>
+                <li><a class="dropdown-item" routerLink="/admin-login" routerLinkActive="active">admin</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="assets\images\222.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="assets\images\2nd.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="assets\images\11.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+   
+  </div>
+ 

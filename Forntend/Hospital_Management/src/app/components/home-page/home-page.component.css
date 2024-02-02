@@ -1,0 +1,90 @@
+/* Navbar */
+.navbar {
+   padding-top: 0px;
+   padding-bottom: 0px;
+    background-color: black; 
+
+}
+/* .navbar {
+    background-color: transparent;  Make the navbar transparent 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;  Ensure the navbar appears on top of other elements 
+} */
+/*.container {
+    width: 100%;
+    height: 100vh;  Adjust as needed 
+   background-image: url('your-image.jpg');  Replace 'your-image.jpg' with your image URL 
+    background-size: auto; Adjust to cover, contain, or specific dimensions 
+    background-position: 0%; Adjust as needed 
+    background-repeat: no-repeat;  Adjust as needed 
+}*/
+
+
+
+.navbar-brand {
+    color: #201a1a; /* Navbar brand text color */
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #ee27f5; /* Navbar brand text color on hover */
+}
+
+.navbar-toggler-icon {
+    color: #1d1f0ade; /* Navbar toggler color */
+}
+
+.nav-link {
+    color: #aeb3f3; /* Navbar link color */
+}
+
+.nav-link:hover {
+    color: #e0c008; /* Navbar link color on hover */
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+   
+}
+
+.carousel-item img {
+    height: 508px; /* Carousel image height */
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Invert carousel control icons */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust carousel control width */
+}
+
+.carousel-indicators button {
+    background-color: #0de065; /* Carousel indicator button background color */
+    border-color: #10e6a6; /* Carousel indicator button border color */
+}
+
+.carousel-indicators button.active {
+    background-color: #c0e710; /* Active carousel indicator button background color */
+    border-color: #37eb0b; /* Active carousel indicator button border color */
+}
+
+/* Adjust carousel control positioning */
+.carousel-control-prev {
+    left: -50px;
+}
+
+.carousel-control-next {
+    right: -50px;
+}
+
+  
+  
+  
+ 
